@@ -1107,7 +1107,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 800;
 		letter-spacing: 0.04em;
-		color: #404248;
+		color: #696969 !important;
 		margin: 0 0 1em 0;
 	}
 
@@ -1313,10 +1313,9 @@
 
 	table.default {
 		width: 100%;
-	}
-
-	table.default tr {
-		border-top: solid 1px #eee;
+		font-size: 1.2em;
+		font-weight: 700;
+		color: #696969;
 	}
 
 	table.default tr:first-child {
@@ -1334,7 +1333,6 @@
 		font-weight: 800;
 		letter-spacing: 0.04em;
 		margin: 0 0 1em 0;
-		font-size: 0.8em;
 	}
 
 	table.default thead {
@@ -1515,6 +1513,9 @@
 	ul.default {
 		list-style: disc;
 		padding-left: 1em;
+		font-size: 1.2em;
+		font-weight: 700;
+		color: #696969;
 	}
 
 	ul.default li {
@@ -1746,7 +1747,7 @@
 
 	#header-wrapper {
 		background: url("images/bg01.png"), url("../../images/launch.png");
-		background-position: top left, center center;
+		background-position: center center, center center;
 		background-size: auto, cover;
 	}
 
@@ -1954,6 +1955,11 @@
 				display: none;
 			}
 
+			h1.logo, h1.logo a {
+				color: #fff;
+				text-decoration: none;
+			}
+
 			.dropotron {
 				background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
 				background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
@@ -2100,6 +2106,10 @@
 
 			h2, h3, h4, h5, h6 {
 				font-size: 13pt !important;
+			}
+
+			h2, h3 {
+				margin: 0 0 0.25em 0;
 			}
 
 			h2 {
